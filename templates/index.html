@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>GO</title>
+
+    <link href='/css/site.css' rel='stylesheet' type='text/css'/>
+</head>
+<body>
+
+<section class='container'>
+    <hgroup>
+        <h1>Welcome to the GO game server</h1>
+    </hgroup>
+
+
+    <div class="row">
+        <section class='col-xs-12 col-sm-6 col-md-6'>
+            <h2>Where to get the client</h2>
+            <p>
+                You can find the code and game data <a href="http://github.com/">here</a>.
+            </p>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ante suscipit, aliquam mauris vel, varius elit. Pellentesque laoreet dictum sapien, vel elementum dolor tristique id. Maecenas ipsum mi, finibus in nisl a, condimentum hendrerit augue. Aenean luctus, leo vel rhoncus aliquam, lectus ante finibus nibh, placerat rutrum tellus diam nec nibh. Mauris nec nibh sed mi tempor placerat. Nullam convallis porta tortor sit amet interdum. Donec viverra quam ut tortor tincidunt, eu consequat diam tincidunt. In luctus, neque posuere vulputate efficitur, dui justo lobortis sapien, eu iaculis neque elit nec metus. Nulla feugiat sed felis vestibulum interdum. Ut auctor dui ligula, ut aliquam dui iaculis in. Suspendisse porttitor accumsan ipsum, eget faucibus arcu. Maecenas suscipit, dolor non lacinia tempus, lorem tellus venenatis metus, in vestibulum leo orci sed sem.</p>
+
+<p> Nunc placerat nulla nisl, hendrerit accumsan ante mollis sit amet. Suspendisse potenti. Fusce non mattis enim. Integer egestas dictum ante, id congue diam gravida et. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi eu nibh convallis, pellentesque turpis sed, tristique dolor. Fusce elementum mauris sed dui vestibulum, ac luctus lorem pretium. Sed laoreet velit sit amet arcu pretium maximus. Phasellus sagittis ultricies sagittis. Nullam rhoncus mi pharetra, venenatis ante ut, volutpat nisi. Ut interdum quis eros eu feugiat. Curabitur finibus massa eu turpis commodo hendrerit consectetur ac neque. Nullam ut varius neque.</p>
+
+<p> Duis mollis nisi nec orci condimentum cursus. Pellentesque quis quam massa. Vivamus felis eros, suscipit id felis at, ultricies accumsan neque. Integer laoreet et turpis non euismod. Proin id neque nulla. Aliquam molestie faucibus augue sed posuere. Sed turpis massa, facilisis vitae elit in, vehicula ullamcorper nibh. Morbi gravida tellus sed ligula mattis lacinia. Suspendisse ullamcorper interdum pulvinar. Sed pellentesque volutpat sagittis. Duis aliquet enim ut facilisis commodo. In volutpat erat eu ligula lacinia, sit amet auctor magna pretium. Duis mollis mollis lorem, sed iaculis purus.</p>
+
+<p> Nam aliquet lacus sapien, id ullamcorper enim vestibulum quis. Nulla et vulputate orci, eu feugiat diam. Duis interdum tortor quis euismod efficitur. Aenean ac ultricies nisl, a efficitur ante. Pellentesque eget ligula blandit libero tempor luctus vel nec metus. Sed vehicula posuere dolor, in pretium erat faucibus in. Suspendisse tincidunt dictum tristique. Mauris ullamcorper faucibus eros a imperdiet. Nunc eu tincidunt augue, sit amet scelerisque justo. Nullam lacus massa, tempor sed vehicula sit amet, dignissim eget odio. In interdum risus in tellus tempor congue in vel nisi. Donec sed lorem libero. Cras lacus augue, iaculis id dapibus sed, vehicula vel neque. Fusce non fermentum elit. Vestibulum eu odio nibh. Nulla ac risus tempus, malesuada odio at, mattis purus.
+            </p>
+        </section>
+        <section class="col-xs-12 col-sm-6 col-md-6">
+            <h2>Game Utilities</h2>
+            <ul>
+                <li><a href="{{ url_for("watch_match") }}">Match Watcher</a>.</li>
+            </ul>
+        </section>
+        <section class="col-xs-12 col-sm-6 col-md-6">
+            <h2>Early alpha screenshot</h2>
+            <p>
+                <img src="{{ url_for('static', filename='images/alpha.png') }}">
+            </p>
+        </section>
+    </div>
+
+
+    <footer>
+        <div class="logo">
+            <a href="https://www.openshift.com/"></a>
+        </div>
+    </footer>
+
+</section>
+</body>
+</html>

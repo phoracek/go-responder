@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>watch match</title>
+
+    <link href='/css/site.css' rel='stylesheet' type='text/css'/>
+</head>
+<body>
+
+
+<section class='container'>
+    <hgroup>
+        <h1>Welcome to match watcher</h1>
+    </hgroup>
+
+
+    <div class="row" style="font-family: courier; position: relative; left: 25%">
+
+        {% for row in match %}
+            <div style="">
+                {% for place in row %}
+                    {% if place == 0 %}
+                        <a style="background-color: grey">&nbsp;</a>
+                    {% elif place == 1 %}
+                        <a style="background-color: black">&nbsp;</a>
+                    {% elif place == 2 %}
+                        <a style="background-color: red">&nbsp;</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endfor %}
+    {{ history }}
+    </div>
+</section>
+
+
+</body>
+</html>
